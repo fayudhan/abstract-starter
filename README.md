@@ -26,13 +26,11 @@ npm -v   # Should output the npm version
    git clone https://github.com/fayudhan/abstract-starter.git
    ```
 
-````
-
 2. **Navigate to the Project Directory**
 
    ```bash
-cd starter
-````
+   cd starter
+   ```
 
 3. **Install Dependencies**
 
@@ -42,34 +40,36 @@ cd starter
    npm install
    ```
 
-````
-
    This will download and install all the necessary packages as listed in the `package.json` file.
 
 ## Running the Application
 
-After successfully installing the dependencies, for tailwindcss watching class in html you can run :
+After successfully installing the dependencies, for Tailwind CSS to watch class changes in HTML, you can run:
 
 ```bash
 npm run watch
-````
+```
 
-You can Use Live Server Extension for running this project. This will start a local development server.
+You can use the Live Server Extension to run this project. This will start a local development server.
+
+## Project Structure
 
 ```
 starter/
 ├── node_modules/      # Installed dependencies
 ├── assets/            # Public assets like images and static files
-├── styles/               # Tailwindcss documents
-├── package.json      # Project metadata and dependencies
-├── README.md         # Project instructions
-└── .gitignore        # Files to ignore in version control
+├── styles/            # Tailwind CSS documents
+├── package.json       # Project metadata and dependencies
+├── README.md          # Project instructions
+└── .gitignore         # Files to ignore in version control
 ```
 
 ## Contact
 
-If you have any questions, feel free to reach out to :
-[faisalyudha2011@gmail.com](mailto:faisalyudha2011@gmail.com).
+If you have any questions, feel free to reach out to:
+
+[faisalyudha2011@gmail.com](mailto:faisalyudha2011@gmail.com)
 
 Faisal Yudha Nugraha
+
 Dec 2024
